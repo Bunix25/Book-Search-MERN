@@ -1,8 +1,6 @@
 # Book-Search-MERN 
 
-## Summary
-
-Usage of Google Books API to create an Graql API with Apollo Server. MERN stack is implemented to create the app. User can sign up and log in for an account, search for a book of their liking and added to a list of saved books, users can also remove the saved books.
+This project utilizes the Google Books API to create a GraphQL API with Apollo Server. It is built using the MERN stack and allows users to sign up and log in to their account. Users can search for books based on title, author, or keyword, and add their preferred books to a list of saved books. Additionally, users have the ability to remove books from their saved list.
 
 ## Tools Used
 
@@ -17,6 +15,15 @@ Usage of Google Books API to create an Graql API with Apollo Server. MERN stack 
 * Dotenv
 * Heroku
 
+## Usage
+
+Instructions on how to use the project.
+
+1. Create an account by signing up.
+2. Log in with your account credentials.
+3. Search for a book by title, author, or keyword.
+4. Add a book to your saved books list.
+5. Remove a book from your saved books list.
 
 
 # Screenshots
@@ -36,12 +43,12 @@ Usage of Google Books API to create an Graql API with Apollo Server. MERN stack 
 * [Questions](#questions)
 
 # Installation & Database SetUp
-* To use this app npm init has to be called to create your package.json file.
-* The following necessary Npm dependencies must be installed to run the application properly: the needed dependencies will be found on the package.json file.
-* To properly install the database you must create at cluster on Mongodb atlas.
-* Run "npm start" for the port to start listening with mongoose.
-* This app is deployed on Heroku
+Step-by-step instructions on how to install and run the project.
 
+1. Clone the repository: `git clone https://github.com/Bunix25/Book-Search-MERN`
+2. Install dependencies: `npm install`
+3. Start the development server: `npm start`
+4. Open your browser and navigate to `http://localhost:3000`
 
 
 
