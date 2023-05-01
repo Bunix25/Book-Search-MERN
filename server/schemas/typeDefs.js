@@ -1,6 +1,6 @@
 const { gql } = require('apollo-server-express');
 
-// typeDefs
+// Define the GraphQL schema using the gql function from apollo-server-express
 const typeDefs = gql`
     type Book {
         _id: ID
@@ -23,8 +23,8 @@ const typeDefs = gql`
         me: User
     }
     type Auth {
-    token: ID!
-    user: User
+        token: ID!
+        user: User
     }
     input SavedBookInput {
         authors: [String]
@@ -40,8 +40,8 @@ const typeDefs = gql`
         addUser(username: String!, email: String!, password: String!): Auth
         saveBook(book: SavedBookInput): User
         removeBook(bookId: String!): User
-}
+    }
 `;
 
-// export the typeDefs
+// Export the typeDefs
 module.exports = typeDefs;
