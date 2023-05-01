@@ -55,7 +55,7 @@ Step-by-step instructions on how to install and run the project.
 # Heroku
 
 
-(https://boks.herokuapp.com/)
+https://boks.herokuapp.com/
 
 
 # License
