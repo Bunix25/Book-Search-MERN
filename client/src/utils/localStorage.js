@@ -1,8 +1,10 @@
 export const getSavedBookIds = () => {
+  // Get saved book IDs from localStorage, or initialize an empty array if none exist
   const savedBookIds = localStorage.getItem('saved_books')
     ? JSON.parse(localStorage.getItem('saved_books'))
     : [];
 
+  // Return the saved book IDs array
   return savedBookIds;
 };
 
